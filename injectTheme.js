@@ -22,7 +22,7 @@ const typesDir = {
     return `${source}/${APP_KEY}${latestVersion}`
   },
   'Darwin': () => '/Applications/Slack.app/Contents/',
-  'Linux': () => '/usr/lib/slack/'
+  'Linux': () => '/snap/slack/current/usr/lib/slack/'
 };
 
 function log(info) {
